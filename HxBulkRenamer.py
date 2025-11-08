@@ -22,7 +22,7 @@ except ImportError:
     from tqdm import tqdm
 
 
-VERSION = "V1.2"
+VERSION = "V1.3"
 GITHUB_VERSION_URL = "https://raw.githubusercontent.com/hidexem/HXUpdates/main/HXbreUpdate.txt"
 
 
