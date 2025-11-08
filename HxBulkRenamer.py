@@ -49,7 +49,7 @@ print()
 print()
 # ---------- USER INPUT ----------
 TARGET_DIR = input("📁 Enter Target Folder Path : ").strip()
-if TARGET_DIR.lower() == "Update":
+if TARGET_DIR.lower() == "update":
     print("\n🔄 Updating script from GitHub...")
     repo_path = os.path.dirname(os.path.abspath(__file__))
     os.system(f"cd {repo_path} && git fetch origin && git reset --hard origin/main && clear")
